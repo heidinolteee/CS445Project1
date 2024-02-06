@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <title>CS445 Project1</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+  <div class="container"><!--start container-->
+    <h1 class="text-center">Stack demo</h1>
+    <div class="row"><!--start of row-->
+      <div class="col-xs-3"><!--start of coloumn-->
+        <ul class="nav text-center actionBar">
+        <ul><!--start of buttons-->
+          <li><lable class="control-label">Add to stack</lable></li>
+          <li><input type="=number" class="form-control" placeholder="Enter A Number"
+            id="inputNumber"></li>
+          <li><button type="button" class="btn btn-default btn-block" id="btnPush">Push</button></li>
+          <li><button type="button" class="btn btn-default btn-block" id="btnPop">Pop</button></li>
+          <li><button type="button" class="btn btn-default btn-block" id="btnPeak">Peak</button></li>
+          <li><button type="button" class="btn btn-default btn-block" id="btnSize">Size</button></li>
+          <li><button type="button" class="btn btn-default btn-block" id="btnIsEmplty">IsEmpty</button></li>
+        </ul>
+      </div><!--end of coloumn-->
+      <div class="col-xs-9"><!--text area coloumn-->
+        <div class="form-group"><!--start new text area group-->
+          <label class="control-label" for="showStack">Show Stack</label>
+          <textarea style="height: 200px" id="showStack" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="showLog">Show Log</label>
+          <textarea style="height: 200px" id="showLog" class="form-control"></textarea>
+        </div>
+      </div>
+    </div><!--ending row-->
+  </div><!--end of container-->
+  </body>
+  </html>
